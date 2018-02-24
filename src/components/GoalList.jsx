@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { goalRef } from '../firebase';
 import { setGoals } from '../actions';
 
-import GoalItem from './GoalItem.jsx';
+import GoalItem from './GoalItem';
 
 class GoalList extends Component {
 
